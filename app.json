@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "RecoveryAndRenewal",
+    "slug": "RecoveryAndRenewal",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121024"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "2"
+    },
+    "android": {
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#121024"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.RecoveryAndRenewal"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
