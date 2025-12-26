@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "title": "Recovery & Renewal - Open Source Licenses & Attributions",
+    "version": "1.0",
+    "last_updated": "2025-12-17",
+    "purpose": "Legal compliance and attribution for all content sources"
+  },
+  "content_licenses": [
+    {
+      "component": "King James Version Bible",
+      "content_type": "Scripture",
+      "license": "Public Domain (text) + MIT License (data structure)",
+      "license_url": "https://github.com/seven1m/bible_api/blob/master/LICENSE",
+      "source": "bible-api.com",
+      "source_url": "https://bible-api.com",
+      "attribution": "King James Version (Public Domain). JSON data structure via bible-api.com (MIT License).",
+      "notes": "KJV text published 1611, standardized 1769. Public domain in USA and internationally (except UK printing rights)."
+    },
+    {
+      "component": "Christian Prayers (Traditional)",
+      "content_type": "Prayers & Liturgy",
+      "license": "Public Domain (pre-1923 texts)",
+      "source": "Book of Common Prayer (1928), Project Gutenberg, Wikisource",
+      "source_url": "https://www.gutenberg.org",
+      "attribution": "Public domain prayers from Book of Common Prayer (1928) and ancient Christian liturgy.",
+      "prayers_included": [
+        "Lord's Prayer",
+        "Apostles' Creed",
+        "Nicene Creed",
+        "Gloria Patri",
+        "Gloria in Excelsis Deo"
+      ],
+      "notes": "All prayers are from sources published before 1923 or are ancient liturgical texts with no copyright."
+    },
+    {
+      "component": "Prayer of St. Francis",
+      "content_type": "Prayer",
+      "license": "Public Domain (original 1912 publication)",
+      "source": "La Clochette (1912) via Wikisource",
+      "source_url": "https://en.wikisource.org/wiki/A_prayer_of_St._Francis_of_Assisi",
+      "attribution": "Prayer of St. Francis, originally published anonymously in La Clochette (1912). Public domain.",
+      "notes": "Despite attribution to St. Francis of Assisi (1182-1226), this prayer was first published in 1912. Copyright expired."
+    },
+    {
+      "component": "12-Step Worksheets & Questions",
+      "content_type": "Recovery Worksheets",
+      "license": "CC BY 4.0 (Creative Commons Attribution 4.0 International)",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "12Step.org",
+      "source_url": "https://12step.org/tools/12steporg-worksheets/",
+      "attribution": "Step work questions adapted from 12Step.org (CC BY 4.0).",
+      "content_included": [
+        "All 12 Steps question sets",
+        "Fourth Step inventory worksheets",
+        "Gratitude prompts",
+        "Relapse prevention planning"
+      ],
+      "notes": "Licensed under CC BY 4.0. Adaptation and redistribution permitted with attribution."
+    },
+    {
+      "component": "Dhammapada (Buddhist Scripture)",
+      "content_type": "Spiritual Wisdom",
+      "license": "Public Domain (pre-1923 translation)",
+      "source": "Project Gutenberg - Max Müller translation (1900)",
+      "source_url": "https://www.gutenberg.org",
+      "attribution": "Dhammapada, translated by F. Max Müller (1900). Public domain.",
+      "notes": "Ancient Buddhist text (compiled ~100 BCE). Pre-1923 English translation is public domain."
+    },
+    {
+      "component": "Marcus Aurelius - Meditations",
+      "content_type": "Stoic Philosophy",
+      "license": "Public Domain (classical text, pre-1923 translation)",
+      "source": "Project Gutenberg - George Long translation",
+      "source_url": "https://www.gutenberg.org/ebooks/58288",
+      "attribution": "Meditations by Marcus Aurelius, translated by George Long. Public domain.",
+      "notes": "Original text written ~170-180 CE. Pre-1923 English translations are public domain."
+    },
+    {
+      "component": "Epictetus - Enchiridion",
+      "content_type": "Stoic Philosophy",
+      "license": "Public Domain (classical text, pre-1923 translation)",
+      "source": "Project Gutenberg",
+      "source_url": "https://www.gutenberg.org",
+      "attribution": "Enchiridion by Epictetus. Public domain translation.",
+      "notes": "Original text written ~135 CE. Pre-1923 English translations are public domain."
+    },
+    {
+      "component": "Tao Te Ching",
+      "content_type": "Taoist Philosophy",
+      "license": "Public Domain (classical text, pre-1923 translation)",
+      "source": "Project Gutenberg - James Legge translation (1891)",
+      "source_url": "https://www.gutenberg.org",
+      "attribution": "Tao Te Ching by Lao Tzu, translated by James Legge (1891). Public domain.",
+      "notes": "Original text written ~4th century BCE. Pre-1923 English translations are public domain."
+    },
+    {
+      "component": "Charles Spurgeon - Morning & Evening Devotionals",
+      "content_type": "Christian Devotional",
+      "license": "Public Domain (published 1865-1870)",
+      "source": "Project Gutenberg",
+      "source_url": "https://www.gutenberg.org",
+      "attribution": "Morning and Evening by Charles Spurgeon (1865-1870). Public domain.",
+      "notes": "Victorian-era devotional text. Published before 1923; public domain in USA."
+    },
+    {
+      "component": "12-Step Daily Wisdom",
+      "content_type": "Recovery Wisdom",
+      "license": "CC BY 4.0 (Creative Commons Attribution 4.0 International)",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "12Step.org",
+      "source_url": "https://12step.org",
+      "attribution": "Daily wisdom readings from 12Step.org (CC BY 4.0).",
+      "notes": "Licensed CC BY 4.0. Attribution required."
+    },
+    {
+      "component": "Recovery Dharma Book (IF INCLUDED)",
+      "content_type": "Buddhist Recovery",
+      "license": "CC BY-NC-SA 4.0 (Non-Commercial, ShareAlike)",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "source": "Recovery Dharma, Inc.",
+      "source_url": "https://recoverydharma.org",
+      "attribution": "Recovery Dharma content © Recovery Dharma, Inc. (CC BY-NC-SA 4.0).",
+      "notes": "NON-COMMERCIAL USE ONLY. If Recovery & Renewal ever monetizes, this content must be removed or permission obtained.",
+      "conditional": true,
+      "condition": "App must remain 100% free and non-commercial to include this content"
+    }
+  ],
+  "excluded_copyrighted_content": [
+    {
+      "item": "Serenity Prayer (full text)",
+      "copyright_holder": "Reinhold Niebuhr Estate",
+      "reason": "Still under copyright; written ~1932-1951",
+      "app_treatment": "External link to AA.org only; not embedded"
+    },
+    {
+      "item": "AA Big Book prayers (3rd Step, 7th Step, etc.)",
+      "copyright_holder": "Alcoholics Anonymous World Services (AAWS)",
+      "reason": "AA literature is copyrighted and protected",
+      "app_treatment": "Not embedded; external links to AA.org resources only"
+    },
+    {
+      "item": "AA Twelve Steps & Twelve Traditions",
+      "copyright_holder": "Alcoholics Anonymous World Services (AAWS)",
+      "reason": "Copyrighted AA literature",
+      "app_treatment": "Not embedded; links to official AA resources"
+    },
+    {
+      "item": "Narcotics Anonymous literature",
+      "copyright_holder": "Narcotics Anonymous World Services",
+      "reason": "NA literature is copyrighted",
+      "app_treatment": "Not embedded; links to official NA resources"
+    }
+  ],
+  "app_level_license": {
+    "app_name": "Recovery & Renewal",
+    "app_license": "Open Source (License TBD - suggest MIT or GPL v3)",
+    "repository": "To be published on GitHub",
+    "copyright": "© 2024-2025 Recovery & Renewal Contributors",
+    "statement": "Recovery & Renewal is a free, open-source, privacy-first recovery companion app. All embedded content is either public domain or openly licensed. See individual component licenses above."
+  }
+}
