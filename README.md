@@ -1,215 +1,254 @@
-# Recovery & Renewal - Mobile App
+# Recovery & Renewal - Source Code
 
-> **A free, privacy-first recovery companion app. Zero data collection. No tracking. 100% open source.**
+> **Privacy-first recovery companion app. Zero data collection. 100% transparent.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React Native](https://img.shields.io/badge/React%20Native-0.81.5-blue.svg)](https://reactnative.dev/)
 [![Expo](https://img.shields.io/badge/Expo-~54.0.30-000020.svg)](https://expo.dev/)
 
-## 🌟 Mission
+---
 
-Recovery & Renewal exists to provide a **completely free** and **privacy-first** recovery companion app. Built by someone in recovery, for others walking the same path.
+## 🔍 Why This Repository Exists
 
-### Core Principles
-- ✅ **Zero data collection** - Your journey stays on your device
-- ✅ **No tracking** - No analytics, no telemetry, nothing
-- ✅ **100% Free** - No ads, no subscriptions, no premium features
-- ✅ **Open Source** - Complete transparency, community-driven
-- ✅ **Offline-capable** - Works without internet connection
+This repository contains the **source code** for Recovery & Renewal. It exists for three reasons:
 
-## 📱 Features
+1. **🔐 Transparency** - Verify our zero data collection promise
+2. **✅ Auditing** - See exactly what the app does (and doesn't do)
+3. **📖 Open Source** - MIT License means truly free
+
+### ⚠️ Important Note
+
+**This repository is for viewing and auditing only.**
+
+If you want to **use the app**, download it from:
+- **Google Play Store**: [Coming Q1 2026]
+- **Apple App Store**: [Coming Q1 2026]
+
+Building from source requires a React Native development environment, which is complex. We provide pre-built binaries for easy installation.
+
+---
+
+## 🛡️ Privacy Promise
+
+**This code proves we collect NOTHING.**
+
+✅ No analytics SDKs  
+✅ No tracking libraries  
+✅ No data transmission code  
+✅ No user accounts or authentication  
+✅ Only local storage (`@react-native-async-storage/async-storage`)  
+
+Don't take our word for it - **audit the code yourself.**
+
+---
+
+## 📂 What's In This Repository
+
+### Core Files
+- **`App.tsx`** - Navigation structure and app entry point
+- **`package.json`** - Dependencies (verify: no tracking/analytics packages)
+- **`Screens/`** - All UI components and screen logic
+
+### Key Screens
+- `Splash-Screen.jsx` - Animated splash with privacy message
+- `Duaa-Screen.jsx` - "Do You Accept Anyone?" privacy promise
+- `HomeScreen.jsx` - Main dashboard with daily readings
+- `ICPP-*.jsx` - Initial configuration (reading preferences, milestones)
+- Reading screens: Spurgeon, Buddhist, Taoist, Stoic, Wisdom, Reflection
+- Tools: Bible, Prayers, Step Work, Resources, Settings
+
+### What's NOT Included
+- Build configurations (Gradle, XCode projects)
+- Compiled binaries (APK/IPA files)
+- Content asset files (devotionals, prayers - these are embedded in the app)
+- Development environment setup
+
+This is intentional - the repo is for **auditing code**, not building the app.
+
+---
+
+## 🌟 App Features
 
 ### Daily Readings
-- **Morning & Evening Devotions** - Spurgeon's classic devotionals
-- **Buddhist Wisdom** - Daily mindfulness practices
-- **Taoist Reflections** - Tao Te Ching passages
-- **Stoic Philosophy** - Marcus Aurelius meditations
-- **Recovery Dharma** - Mindfulness-based recovery practices
-- **Wisdom Literature** - Proverbs and ancient wisdom
+- **Morning & Evening** - C.H. Spurgeon devotionals (public domain)
+- **Buddhist Wisdom** - Daily Dhammapada reflections
+- **Taoist Philosophy** - Tao Te Ching passages
+- **Stoic Meditations** - Marcus Aurelius wisdom
+- **Recovery Reflections** - Original 12-step content
+- **Scripture** - King James Bible (public domain)
 
-### Tools
-- **Bible Reader** - KJV Bible with search
-- **Prayer Collection** - Serenity Prayer, Lord's Prayer, and more
+### Recovery Tools
+- **Prayer Library** - Serenity Prayer, Lord's Prayer, and more
 - **Step Work** - 12-step program materials
-- **Resource Library** - Helpful recovery materials
+- **Sobriety Counter** - Optional, private milestone tracking
+- **Resource Links** - Crisis hotlines, meeting finders
 
-### Experience
-- **TRIPP-inspired cosmic UI** - Purple/pink/cyan gradient theme
-- **Breathing animations** - Calming, meditative interface
-- **Dark mode optimized** - Easy on the eyes
-- **Minimal & focused** - No distractions
+### Design Philosophy
+- **TRIPP-inspired cosmic UI** - Purple/pink/cyan gradients
+- **Breathing animations** - Calming, meditative experience
+- **Dark mode optimized** - Easy on the eyes, battery-friendly
+- **Offline-first** - Works without internet
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Framework**: React Native 0.81.5
-- **Platform**: Expo ~54.0.30
-- **Navigation**: React Navigation 7.x
-- **Animations**: Reanimated 4.1.1
-- **Icons**: Lucide React Native
-- **Storage**: AsyncStorage (local only)
+### Framework
+- **React Native** 0.81.5
+- **Expo** ~54.0.30
+- **React Navigation** 7.x Stack Navigator
 
-## 📦 Installation
-
-### Prerequisites
-- Node.js 18+ and npm
-- Expo CLI (`npm install -g expo-cli`)
-- iOS Simulator (Mac) or Android Studio
-
-### Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/recoveryandrenewal/recovery-renewal-app.git
-cd recovery-renewal-app
-
-# Install dependencies
-npm install
-
-# Start Expo development server
-npm start
-
-# Run on iOS
-npm run ios
-
-# Run on Android
-npm run android
+### Key Dependencies
+```json
+{
+  "@react-native-async-storage/async-storage": "2.2.0",
+  "@react-native-community/datetimepicker": "8.4.4",
+  "expo-linear-gradient": "~15.0.8",
+  "react-native-reanimated": "~4.1.1",
+  "lucide-react-native": "^0.562.0"
+}
 ```
 
-## 📂 Project Structure
+**Notice what's missing?**
+- ❌ No Firebase Analytics
+- ❌ No Google Analytics
+- ❌ No Segment
+- ❌ No Amplitude
+- ❌ No Mixpanel
+- ❌ No tracking SDKs of any kind
 
-```
-recovery-renewal-app/
-├── App.tsx                 # Main app entry point
-├── app.json               # Expo configuration
-├── package.json           # Dependencies
-├── Screens/               # All screen components
-│   ├── Splash-Screen.jsx
-│   ├── Duaa-Screen.jsx
-│   ├── HomeScreen.jsx
-│   ├── SpurgeonReadingScreen.jsx
-│   ├── BuddhistReadingScreen.jsx
-│   ├── TaoistReadingScreen.jsx
-│   ├── StoicReadingScreen.jsx
-│   ├── WisdomReadingScreen.jsx
-│   ├── ReflectionReadingScreen.jsx
-│   ├── BibleScreen.jsx
-│   ├── PrayersScreen.jsx
-│   ├── StepWorkScreen.jsx
-│   ├── LibraryScreen.jsx
-│   ├── ResourcesScreen.jsx
-│   ├── SettingsScreen.jsx
-│   └── AboutScreen.jsx
-├── assets/                # JSON data files, images
-│   ├── m_e.json          # Spurgeon devotionals
-│   ├── buddhist_daily.json
-│   ├── tao_te_ching.json
-│   ├── meditations_daily.json
-│   ├── reflection_daily.json
-│   ├── wisdom_daily.json
-│   └── icon.png
-└── README.md
-```
-
-## 🎨 Design Philosophy
-
-**TRIPP-Inspired Aesthetics**: The UI draws inspiration from the TRIPP meditation app's cosmic visual language:
-- Deep space gradients (#121024, #2A1832, #151525)
-- Vibrant accents (Cyan #00E5FF, Pink #EC4899, Purple #9D4EDD)
-- Breathing animations for calm, meditative experience
-- Floating particles for depth
-- Glassmorphism effects
-
-## 🤝 Contributing
-
-This is a labor of love, and contributions are welcome!
-
-### How to Contribute
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Areas for Contribution
-- 🐛 Bug fixes
-- ✨ New reading content (must be public domain or properly licensed)
-- 🎨 UI/UX improvements
-- 📱 Platform-specific optimizations
-- 🌐 Translations (coming soon)
-- 📖 Documentation improvements
+---
 
 ## 📜 License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+**MIT License** - see [LICENSE](LICENSE) file.
 
-**What this means**: You can use, copy, modify, and distribute this code freely. The only requirement is to include the original copyright and license notice.
+### What This Means
+- ✅ Use the code freely
+- ✅ Modify it however you want
+- ✅ Distribute your changes
+- ✅ Use in commercial projects
+- ⚠️ Must include original copyright notice
+- ⚠️ No warranty provided
+
+---
+
+## 🤝 Contributing
+
+This project is **view-only** for transparency purposes. However, if you spot:
+- 🐛 Security vulnerabilities
+- 🔍 Code that could compromise privacy
+- 📝 Documentation improvements
+
+**Please open an issue or contact**: [recoveryandrenewal@protonmail.com](mailto:recoveryandrenewal@protonmail.com)
+
+---
 
 ## 🙏 Acknowledgments
 
-**Built with gratitude for:**
-- **Unity Bible Church** (Lewiston, ME) - Spiritual foundation
-- **Pastor Bill Walker & Michael Hansen** - Guidance and support
-- **TRIPP** - Design inspiration
-- **Recovery Dharma** - Mindfulness practices
-- **C.H. Spurgeon** - Morning & Evening devotions (public domain)
-- **Lao Tzu** - Tao Te Ching (public domain)
-- **Marcus Aurelius** - Meditations (public domain)
-- **King James Bible** - Scripture (public domain)
+**Content Sources** (all public domain or properly licensed):
+- C.H. Spurgeon - *Morning and Evening* (1866)
+- Lao Tzu - *Tao Te Ching* (ancient)
+- Marcus Aurelius - *Meditations* (ancient)
+- King James Bible (1611)
+- Buddhist scripture - *Dhammapada* (ancient)
 
-See [community.html](https://recoveryandrenewal.org/community.html) for full acknowledgments.
+**Inspiration**:
+- TRIPP - Visual design inspiration
+- Recovery Dharma - Mindfulness practices
+- 12-step programs - AA, NA, GA traditions
+
+**Built in**: Lewiston, Maine, USA
+
+See full acknowledgments at [recoveryandrenewal.org/credits.html](https://recoveryandrenewal.org/credits.html)
+
+---
 
 ## 🔗 Links
 
 - **Website**: [recoveryandrenewal.org](https://recoveryandrenewal.org)
-- **GitHub**: [github.com/recoveryandrenewal](https://github.com/recoveryandrenewal)
-- **Support**: [ko-fi.com/recoveryandrenewal](https://ko-fi.com/recoveryandrenewal)
+- **Privacy Policy**: [recoveryandrenewal.org/privacy.html](https://recoveryandrenewal.org/privacy.html)
+- **Support the Project**: [ko-fi.com/recoveryandrenewal](https://ko-fi.com/recoveryandrenewal)
+
+---
 
 ## 💬 Philosophy
 
-> "Heal the sick, cleanse the lepers, raise the dead, cast out devils: freely ye have received, freely give."  
+> *"Heal the sick, cleanse the lepers, raise the dead, cast out devils: freely ye have received, freely give."*  
 > — Matthew 10:8 (KJV)
 
-This app will **always** be:
-- Free (no cost)
-- Ad-free
-- Tracking-free
-- Open source
-- Privacy-first
+### This App Will ALWAYS Be:
+- ✅ **Free** - No cost, ever
+- ✅ **Ad-free** - No advertisements
+- ✅ **Tracking-free** - Zero data collection
+- ✅ **Open source** - MIT License
+- ✅ **Privacy-first** - Everything stays on your device
 
-No exceptions. No compromises.
+**No exceptions. No compromises.**
 
-## 📱 Status
+---
 
-**Current Version**: 1.0.1  
-**Status**: Beta testing (Pioneer Team launch December 25, 2025)
+## 📱 Download the App
 
-### Roadmap
-- ✅ Core reading screens
-- ✅ Bible integration
-- ✅ Prayer collection
-- ✅ Step work materials
-- 🔄 Google Play release (Q1 2026)
-- 🔄 Apple App Store release (Q1 2026)
-- 📋 Journal feature (planned)
-- 📋 Meeting finder (planned)
-- 📋 Offline sync improvements (planned)
+**Coming Soon:**
+- Google Play Store (Q1 2026)
+- Apple App Store (Q1 2026)
 
-## ⚠️ Privacy Commitment
+**Pioneer Team Launch**: December 25, 2025 (20 testers)
 
-**This app collects ZERO data. Period.**
+---
 
-- No analytics
-- No crash reporting
-- No usage tracking
-- No personal information
-- No cloud sync
-- No account creation
+## 📊 Project Status
 
-Everything stays on your device. Your recovery journey is yours alone.
+**Version**: 1.0.1  
+**Status**: Beta Testing  
+**Launch Target**: Q1 2026  
+
+### Completed ✅
+- Core reading screens
+- Bible integration (KJV)
+- Prayer library
+- Step work materials
+- Sobriety counter
+- ICPP onboarding flow
+- Resources screen
+- Settings & preferences
+
+### Planned 📋
+- Journal feature
+- Meeting finder integration
+- Additional devotional content
+- iOS version
+
+---
 
 ## 🛡️ Security
 
-Found a security issue? Please email: [recoveryandrenewal@protonmail.com](mailto:recoveryandrenewal@protonmail.com)
+Found a security issue? **Please report responsibly**:
+
+📧 [recoveryandrenewal@protonmail.com](mailto:recoveryandrenewal@protonmail.com)
+
+---
+
+## ⚠️ Data Collection Statement
+
+### What We Collect:
+**NOTHING.**
+
+### What We Store Locally:
+- Your reading preferences (Christian/Spiritual/Random)
+- Your recovery material selections (AA/NA/Devotional/etc.)
+- Your milestone date (if you choose to set one)
+- Your name (if you choose to provide one)
+- App settings and preferences
+
+### What Leaves Your Device:
+**NOTHING.**
+
+No cloud sync. No backups. No telemetry. No crash reports. No analytics.  
+Everything stays on **your device**, under **your control**.
+
+**When you uninstall the app, all data is deleted. We have no copies.**
 
 ---
 
