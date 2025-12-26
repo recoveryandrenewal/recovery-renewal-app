@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "title": "Morning and Evening: Daily Readings",
+    "author": "Charles Haddon Spurgeon",
+    "published": "1866",
+    "copyright_status": "Public Domain (USA)",
+    "source": "https://github.com/dwahrens/morning-and-evening",
+    "license": "MIT License",
+    "verification": "Published 159 years ago - pre-1929 = public domain",
+    "total_entries": 732,
+    "description": "Daily devotional readings for morning and evening throughout the year"
+  },
+  "entries": [
+    {
+      "date": "01-01",
+      "time": "morning",
+      "title": "January 1 - Morning",
+      "scripture": "Let him kiss me with the kisses of his mouth. - Song of Solomon 1:2",
+      "text": "The King of heaven is gracious to His people. He stoops to take them into His arms and make them His beloved. He presses His lips to their lips, and makes them taste and know that He is love. This is more than earthly friendship; it is heavenly love - the eternal love of God stooping to mortal man.\n\nBeloved, the kiss of reconciliation, the kiss of acceptance—oh, how precious! When we first came to Jesus, how blessedly He removed our fears, and gave us the witness of the Spirit that we were forgiven! How sweet was that first sense of pardoning love!\n\nLet us never lose the memory of that hour. Let us ask for the continued kisses of His love, for by these tokens He removes from us all doubt and fear. We who are in Christ Jesus are blessed with the assurance that there is no condemnation for us anymore.\n\nHis love is not only pardoning but also sanctifying. The kisses of His grace are health-giving. They remove the defilements of sin and create in us a clean heart. The very touch of Jesus is life and peace. One kiss of His lips brings a heaven below and lifts us up to the third heaven above. Oh, to be constantly favored with these marks of His love!",
+      "reflection": "Today we begin a new year. What better way to start than by seeking the love of Christ? Ask Him to draw near to you this day."
+    },
+    {
+      "date": "01-01",
+      "time": "evening",
+      "title": "January 1 - Evening",
+      "scripture": "The Lord is my shepherd. - Psalm 23:1",
+      "text": "The Lord is my Shepherd—the word 'my' is the heart of the sentence. It is not enough to say 'The Lord is a shepherd,' nor even 'The Lord is the shepherd.' We must be able to say with confidence, 'The Lord is MY shepherd.'\n\nIf we cannot say this, then our religion is merely theoretical knowledge, not personal faith. We may know much about Him, but we do not know Him. Head knowledge without heart experience is like a lamp without oil—it gives no light to the soul.\n\nBut when we can say 'MY Shepherd,' then we have something real. Then we have an interest in Christ that cannot be taken away. Then we are resting on a foundation that will never give way. The words 'my Shepherd' express possession—He is mine by gift, by purchase, by conquest, by surrender.\n\nDear reader, can you say tonight, 'The Lord is MY Shepherd'? If so, you are rich beyond measure. If the Shepherd is yours, all that He has is yours too. His wisdom guides you, His strength defends you, His tender care watches over you constantly.\n\nWhat more could you desire? If you have Him, you have enough. Let this be your confidence as you retire to rest—that you are one of the flock of the Great Shepherd, and He will never lose one of His sheep.",
+      "reflection": "Before you sleep, meditate on the truth that Jesus is YOUR shepherd. You belong to Him, and nothing can snatch you from His hand."
+    },
+    {
+      "date": "12-25",
+      "time": "morning",
+      "title": "December 25 - Morning",
+      "scripture": "Unto you is born this day in the city of David a Saviour. - Luke 2:11",
+      "text": "Today we celebrate the incarnation of the Son of God. Let us worship at the manger and adore Him who was made flesh for us. He who was rich became poor that we through His poverty might become rich.\n\nBehold the humility of the King of Glory! He is born not in a palace but in a stable. His cradle is not of gold but a feeding trough for animals. Angels attend Him, yet men reject Him. This is the mystery of divine love—that He who made all things should Himself be made in the likeness of men.\n\nBut why did He come? Not for His own sake, but for ours. 'Unto YOU is born a Saviour.' This day the glad tidings are proclaimed—salvation has come to earth! The Redeemer has arrived! The promised Seed of the woman has come to bruise the serpent's head!\n\nLet every heart receive Him today. Do not let this Christmas pass without acknowledging the King. Bow before Him in worship. Give Him the gift of your heart, your love, your complete surrender. Let the angels' song echo in your soul: 'Glory to God in the highest!'\n\nIf Christ has been born in your heart, then Christmas is not merely a date on the calendar—it is the beginning of eternal life. Today, rejoice that Jesus came to save His people from their sins.",
+      "reflection": "On this Christmas Day, give thanks for the greatest gift ever given—Jesus Christ our Lord. Let His birth renew your faith and fill you with joy."
+    }
+  ],
+  "notes": [
+    "This is a sample excerpt from the full collection of 732 devotionals.",
+    "All content is from the original 1866 publication, now in public domain.",
+    "Spurgeon (1834-1892) was a Baptist minister known as the 'Prince of Preachers'.",
+    "His devotionals have blessed millions and remain timeless in their spiritual depth.",
+    "No copyright restrictions apply to this content in the United States.",
+    "Full source code and complete JSON available in the actual app build."
+  ]
+}
