@@ -17,12 +17,12 @@ import StoicReadingScreen from './Screens/StoicReadingScreen.jsx';
 import WisdomReadingScreen from './Screens/WisdomReadingScreen.jsx';
 import ReflectionReadingScreen from './Screens/ReflectionReadingScreen.jsx';
 import SettingsScreen from './Screens/SettingsScreen.jsx';
-import ResourcesScreen from './Screens/ResourcesScreen';
-import LibraryScreen from './Screens/LibraryScreen';
-import BibleScreen from './Screens/BibleScreen';
-import PrayersScreen from './Screens/PrayersScreen';
-import StepWorkScreen from './Screens/StepWorkScreen';
-import WisdomScreen from './Screens/WisdomScreen';
+import ResourcesScreen from './Screens/ResourcesScreen.jsx';
+import LibraryScreen from './Screens/LibraryScreen.jsx';
+import BibleScreen from './Screens/Biblescreen.jsx';
+import PrayersScreen from './Screens/PrayerScreen.jsx';
+import StepWorkScreen from './Screens/StepWorkScreen.jsx';
+import WisdomScreen from './Screens/WisdomScreen.jsx';
 import AboutScreen from './Screens/AboutScreen.jsx';
 
 const Stack = createStackNavigator();
