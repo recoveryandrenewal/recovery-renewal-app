@@ -1,0 +1,263 @@
+{
+  "metadata": {
+    "title": "Recovery & Renewal Step Work Library",
+    "version": "1.0",
+    "last_updated": "2025-12-17",
+    "license": "CC BY 4.0 (Creative Commons Attribution 4.0 International)",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "12Step.org",
+    "source_url": "https://12step.org/tools/12steporg-worksheets/",
+    "attribution": "Step work questions adapted from 12Step.org (CC BY 4.0)",
+    "notes": "These worksheets are licensed CC BY 4.0 and may be adapted. Attribution required."
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "We admitted we were powerless",
+      "short_title": "Powerlessness & Unmanageability",
+      "description": "Honest assessment of how addiction has affected your life.",
+      "prompts": [
+        "What substances or behaviors have I been unable to control?",
+        "Give specific examples of times I tried to control my use and failed.",
+        "How has my life become unmanageable?",
+        "What have I lost due to my addiction? (relationships, job, health, self-respect)",
+        "What am I afraid will happen if I admit powerlessness?",
+        "Am I ready to accept that I cannot control my addiction on my own?"
+      ],
+      "reflection": "Step 1 is about honesty. Admitting powerlessness is not weakness—it's the first act of courage in recovery."
+    },
+    {
+      "step_number": 2,
+      "title": "Came to believe in a Power greater than ourselves",
+      "short_title": "Faith & Higher Power",
+      "description": "Opening to the possibility of help beyond yourself.",
+      "prompts": [
+        "What is my current understanding of a Higher Power?",
+        "Do I believe a Power greater than myself could restore me to sanity?",
+        "What evidence have I seen that my own willpower is not enough?",
+        "What would it mean to trust something outside myself?",
+        "What spiritual practices or beliefs have given me hope in the past?",
+        "Am I willing to remain open to finding a Higher Power that works for me?"
+      ],
+      "reflection": "Step 2 is about hope. Your Higher Power can be God, the universe, the recovery community, or anything that gives you strength beyond yourself."
+    },
+    {
+      "step_number": 3,
+      "title": "Made a decision to turn our will over",
+      "short_title": "Surrender & Trust",
+      "description": "Making a conscious choice to let go of self-will and trust in a Higher Power.",
+      "prompts": [
+        "What does 'turning my will and life over' mean to me?",
+        "What am I afraid of losing if I let go of control?",
+        "In what areas of my life am I still trying to be in charge?",
+        "What would it look like to trust my Higher Power in my daily life?",
+        "Am I willing to follow guidance from my Higher Power, even when it's uncomfortable?",
+        "What decision am I making today about my recovery?"
+      ],
+      "reflection": "Step 3 is about trust. This is a daily decision, not a one-time event. Each morning, you choose again."
+    },
+    {
+      "step_number": 4,
+      "title": "Made a searching and fearless moral inventory",
+      "short_title": "Fearless Inventory",
+      "description": "Honest examination of resentments, fears, and past behaviors.",
+      "sections": [
+        {
+          "inventory_type": "Resentment",
+          "prompt": "List people, institutions, or principles you resent. Write down what they did and how it affected you.",
+          "questions": [
+            "Who or what do I resent?",
+            "What specifically did they do that upsets me?",
+            "What part of my life did this affect? (self-esteem, security, relationships, ambitions)",
+            "What is my part in this resentment? (Where was I selfish, dishonest, self-seeking, or afraid?)"
+          ]
+        },
+        {
+          "inventory_type": "Fear",
+          "prompt": "Identify your fears and their root causes.",
+          "questions": [
+            "What am I afraid of?",
+            "When did this fear start?",
+            "How has this fear affected my behavior and decisions?",
+            "What would happen if I let go of this fear?"
+          ]
+        },
+        {
+          "inventory_type": "Sex Conduct / Relationships",
+          "prompt": "Review past and present relationships. Where have you been selfish, dishonest, or hurtful?",
+          "questions": [
+            "Who have I harmed in my relationships?",
+            "Where was I selfish or dishonest?",
+            "What should I have done differently?",
+            "What patterns do I see in my relationships?"
+          ]
+        }
+      ],
+      "reflection": "Step 4 is about self-awareness. This inventory is for you—not to blame yourself, but to see yourself clearly so you can heal."
+    },
+    {
+      "step_number": 5,
+      "title": "Admitted to God, ourselves, and another human being",
+      "short_title": "Confession & Honesty",
+      "description": "Sharing your inventory with your Higher Power, yourself, and another trusted person.",
+      "prompts": [
+        "Who will I share my Step 4 inventory with? (sponsor, counselor, trusted friend)",
+        "What am I afraid will happen when I share my story?",
+        "What secrets have I been keeping that I need to speak out loud?",
+        "How do I feel after admitting the exact nature of my wrongs?",
+        "What patterns or themes emerged from my inventory?",
+        "Am I ready to let go of shame and accept forgiveness?"
+      ],
+      "reflection": "Step 5 is about freedom. Speaking your truth to another person breaks the power of secrets and shame."
+    },
+    {
+      "step_number": 6,
+      "title": "Were entirely ready to have God remove defects",
+      "short_title": "Willingness & Readiness",
+      "description": "Becoming willing to let go of character defects and old patterns.",
+      "prompts": [
+        "What are my character defects? (anger, pride, fear, dishonesty, selfishness, etc.)",
+        "Which defects am I holding onto? Why?",
+        "What would my life look like without these defects?",
+        "Am I willing to let my Higher Power remove these defects?",
+        "What am I afraid will happen if I let go of these behaviors?",
+        "What new behaviors do I want to practice instead?"
+      ],
+      "reflection": "Step 6 is about willingness. You don't have to remove defects yourself—you just have to be willing to let them go."
+    },
+    {
+      "step_number": 7,
+      "title": "Humbly asked Him to remove our shortcomings",
+      "short_title": "Humility & Prayer",
+      "description": "Asking your Higher Power for help in removing character defects.",
+      "prompts": [
+        "Have I asked my Higher Power to remove my shortcomings?",
+        "What does humility mean to me?",
+        "Am I willing to accept help, or do I still want to fix myself?",
+        "What progress have I noticed since working the steps?",
+        "Where am I still struggling with old patterns?",
+        "How can I practice humility in my daily life?"
+      ],
+      "reflection": "Step 7 is about humility. True humility is not thinking less of yourself—it's thinking of yourself less."
+    },
+    {
+      "step_number": 8,
+      "title": "Made a list of all persons we had harmed",
+      "short_title": "Amends List",
+      "description": "Creating a list of people harmed and becoming willing to make amends.",
+      "prompts": [
+        "Who have I harmed through my addiction or behavior?",
+        "What specifically did I do to harm them?",
+        "Am I willing to make amends to each person on this list?",
+        "Are there people I'm not willing to make amends to yet? Why?",
+        "What fears do I have about making amends?",
+        "How will making amends help me heal?"
+      ],
+      "reflection": "Step 8 is about accountability. Making a list is the first step—you don't have to make the amends yet."
+    },
+    {
+      "step_number": 9,
+      "title": "Made direct amends wherever possible",
+      "short_title": "Making Amends",
+      "description": "Taking action to repair harm done to others, except when doing so would cause further harm.",
+      "prompts": [
+        "Which amends am I ready to make now?",
+        "What will I say when I make amends? (Be specific, take responsibility, don't make excuses)",
+        "Are there situations where making amends would cause more harm? How will I handle those?",
+        "What amends can I make through changed behavior instead of words?",
+        "How do I feel after making amends?",
+        "What have I learned about myself through this process?"
+      ],
+      "reflection": "Step 9 is about repair. The goal is to clean up your side of the street—not to get forgiveness or approval from others."
+    },
+    {
+      "step_number": 10,
+      "title": "Continued to take personal inventory",
+      "short_title": "Daily Inventory",
+      "description": "Ongoing practice of self-examination and prompt correction of wrongs.",
+      "prompts": [
+        "What did I do well today?",
+        "Where did I fall short today?",
+        "Did I harm anyone today? If so, how can I make it right?",
+        "What character defects showed up today?",
+        "Did I act with honesty, humility, and integrity today?",
+        "What am I grateful for today?"
+      ],
+      "reflection": "Step 10 is about maintenance. Recovery is a daily practice. When you're wrong, promptly admit it."
+    },
+    {
+      "step_number": 11,
+      "title": "Sought through prayer and meditation",
+      "short_title": "Prayer & Meditation",
+      "description": "Deepening conscious contact with your Higher Power through spiritual practice.",
+      "prompts": [
+        "What is my daily spiritual practice? (prayer, meditation, reading, nature, service)",
+        "When and where do I connect most deeply with my Higher Power?",
+        "What guidance am I seeking today?",
+        "How do I know when my Higher Power is speaking to me?",
+        "What does 'conscious contact' mean to me?",
+        "What can I do to improve my spiritual life?"
+      ],
+      "reflection": "Step 11 is about connection. Prayer is talking to your Higher Power. Meditation is listening."
+    },
+    {
+      "step_number": 12,
+      "title": "Having had a spiritual awakening",
+      "short_title": "Service & Sponsorship",
+      "description": "Sharing your recovery with others and practicing these principles in all areas of life.",
+      "prompts": [
+        "What has changed in me since I began recovery?",
+        "What does 'spiritual awakening' mean to me?",
+        "How can I carry this message to others who are still suffering?",
+        "Am I willing to sponsor others or serve my recovery community?",
+        "Where am I still not practicing these principles? (work, family, relationships)",
+        "How can I live these steps every day?"
+      ],
+      "reflection": "Step 12 is about purpose. The steps are not a destination—they're a way of life. Give away what was freely given to you."
+    }
+  ],
+  "gratitude_prompts": [
+    "List 5 things you're grateful for today.",
+    "Who has helped you in your recovery? Write them a note of thanks.",
+    "What positive changes have you noticed in yourself?",
+    "What gifts has sobriety given you that you didn't expect?"
+  ],
+  "relapse_prevention": {
+    "title": "Relapse Prevention Plan",
+    "description": "A personalized plan to recognize warning signs and take action before relapse.",
+    "sections": [
+      {
+        "category": "Warning Signs",
+        "prompts": [
+          "What thoughts, feelings, or behaviors appear before I relapse? (HALT: Hungry, Angry, Lonely, Tired)",
+          "What situations or people trigger cravings?",
+          "What lies does my addiction tell me? ('Just one won't hurt', 'I deserve this', etc.)"
+        ]
+      },
+      {
+        "category": "Emergency Contacts",
+        "prompts": [
+          "Who can I call when I'm struggling? (sponsor, friend, hotline)",
+          "What meetings can I attend immediately?",
+          "Where is my list of emergency numbers?"
+        ]
+      },
+      {
+        "category": "Coping Strategies",
+        "prompts": [
+          "What healthy activities help me when I'm stressed? (walk, prayer, meditation, exercise, creative work)",
+          "What can I do in the next 5 minutes to interrupt a craving?",
+          "What affirmations or prayers help me stay grounded?"
+        ]
+      },
+      {
+        "category": "Recovery Commitments",
+        "prompts": [
+          "How many meetings will I attend per week?",
+          "How often will I call my sponsor?",
+          "What daily spiritual practices will I maintain?"
+        ]
+      }
+    ]
+  }
+}
