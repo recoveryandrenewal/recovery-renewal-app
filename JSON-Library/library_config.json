@@ -1,1 +1,235 @@
 
+{
+  "metadata": {
+    "title": "Recovery & Renewal Library Configuration",
+    "version": "1.0",
+    "last_updated": "2025-12-17",
+    "purpose": "Category definitions, icons, and navigation structure for Library tab"
+  },
+  "categories": [
+    {
+      "id": "bible",
+      "title": "Bible",
+      "subtitle": "King James Version",
+      "icon": "book-open",
+      "gradient": [
+        "#4C1D95",
+        "#5B21B6",
+        "#6D28D9"
+      ],
+      "description": "Full KJV Bible searchable by book, chapter, and verse.",
+      "content_count": "66 books, 1,189 chapters, 31,102 verses",
+      "data_source": "kjv_sample.json (expand with full bible-api.com data)",
+      "features": [
+        "Search by book, chapter, verse",
+        "Popular verses collection",
+        "Bookmark & highlight (future)",
+        "Offline access"
+      ],
+      "navigation": "BibleScreen"
+    },
+    {
+      "id": "prayers",
+      "title": "Prayers",
+      "subtitle": "Traditional & Recovery",
+      "icon": "heart",
+      "gradient": [
+        "#831843",
+        "#9F1239",
+        "#BE123C"
+      ],
+      "description": "Curated collection of public-domain Christian prayers and spiritual reflections.",
+      "content_count": "8 embeddable prayers + external links",
+      "data_source": "prayers.json",
+      "categories_included": [
+        "Traditional Christian",
+        "Biblical Prayers",
+        "Peace & Service",
+        "Recovery (external links)"
+      ],
+      "features": [
+        "Filter by category (Traditional, Biblical, Recovery)",
+        "Search by keyword",
+        "Copy & share prayers",
+        "Favorites (future)"
+      ],
+      "navigation": "PrayersScreen"
+    },
+    {
+      "id": "step_work",
+      "title": "Step Work",
+      "subtitle": "12-Step Worksheets",
+      "icon": "clipboard-list",
+      "gradient": [
+        "#065F46",
+        "#047857",
+        "#059669"
+      ],
+      "description": "Interactive worksheets for all 12 Steps, inventories, gratitude, and relapse prevention.",
+      "content_count": "12 Steps + detailed inventories",
+      "data_source": "step_work.json",
+      "license": "CC BY 4.0 (12Step.org)",
+      "sections": [
+        "All 12 Steps (question prompts)",
+        "Step 4 detailed inventory (resentment, fear, relationships)",
+        "Gratitude prompts",
+        "Relapse prevention plan"
+      ],
+      "features": [
+        "Editable text fields (save locally)",
+        "Step-by-step guidance",
+        "Progress tracking (future)",
+        "Export/print (future)"
+      ],
+      "navigation": "StepWorkScreen"
+    },
+    {
+      "id": "wisdom",
+      "title": "Wisdom",
+      "subtitle": "Spiritual Philosophy",
+      "icon": "lightbulb",
+      "gradient": [
+        "#1E3A8A",
+        "#1E40AF",
+        "#2563EB"
+      ],
+      "description": "Daily readings from Buddhist, Stoic, and Taoist traditions.",
+      "content_count": "1,000+ readings across 4 traditions",
+      "data_sources": [
+        "dhammapada_authentic.json",
+        "marcus_aurelius_v2.json",
+        "epictetus.json",
+        "tao_te_ching.json"
+      ],
+      "traditions": [
+        {
+          "name": "Dhammapada",
+          "icon": "lotus",
+          "color": "#F59E0B"
+        },
+        {
+          "name": "Marcus Aurelius",
+          "icon": "shield",
+          "color": "#8B5CF6"
+        },
+        {
+          "name": "Epictetus",
+          "icon": "book",
+          "color": "#3B82F6"
+        },
+        {
+          "name": "Tao Te Ching",
+          "icon": "yin-yang",
+          "color": "#10B981"
+        }
+      ],
+      "features": [
+        "Browse by tradition",
+        "Daily wisdom feed",
+        "Search by theme/keyword",
+        "Bookmarks (future)"
+      ],
+      "navigation": "WisdomScreen"
+    }
+  ],
+  "quick_actions": [
+    {
+      "id": "todays_verse",
+      "title": "Today's Verse",
+      "icon": "calendar",
+      "action": "Navigate to daily Bible verse",
+      "gradient": [
+        "#4C1D95",
+        "#5B21B6"
+      ]
+    },
+    {
+      "id": "short_prayers",
+      "title": "Short Prayers",
+      "icon": "zap",
+      "action": "Filter prayers by length < 100 words",
+      "gradient": [
+        "#831843",
+        "#9F1239"
+      ]
+    },
+    {
+      "id": "start_step_4",
+      "title": "Start Step 4",
+      "icon": "edit-3",
+      "action": "Navigate to Step 4 inventory",
+      "gradient": [
+        "#065F46",
+        "#047857"
+      ]
+    },
+    {
+      "id": "daily_wisdom",
+      "title": "Daily Wisdom",
+      "icon": "sunrise",
+      "action": "Today's reading from selected tradition",
+      "gradient": [
+        "#1E3A8A",
+        "#2563EB"
+      ]
+    }
+  ],
+  "search_config": {
+    "global_search": true,
+    "search_placeholder": "Search Bible, Prayers, Steps, Wisdom...",
+    "search_scopes": [
+      {
+        "id": "all",
+        "label": "All"
+      },
+      {
+        "id": "bible",
+        "label": "Bible"
+      },
+      {
+        "id": "prayers",
+        "label": "Prayers"
+      },
+      {
+        "id": "steps",
+        "label": "Steps"
+      },
+      {
+        "id": "wisdom",
+        "label": "Wisdom"
+      }
+    ],
+    "filters": [
+      {
+        "id": "book",
+        "label": "Book (Bible)"
+      },
+      {
+        "id": "tradition",
+        "label": "Prayer Tradition"
+      },
+      {
+        "id": "step_number",
+        "label": "Step Number"
+      },
+      {
+        "id": "wisdom_source",
+        "label": "Wisdom Source"
+      }
+    ]
+  },
+  "ui_theme": {
+    "cosmic_deep": [
+      "#121024",
+      "#2A1832",
+      "#151525"
+    ],
+    "text_white": "#FFFFFF",
+    "text_soft": "#C0C0D0",
+    "text_gray": "#A0A0B0",
+    "accent_cyan": "#00E5FF",
+    "card_padding": 20,
+    "card_radius": 16,
+    "section_spacing": 24
+  }
+}
