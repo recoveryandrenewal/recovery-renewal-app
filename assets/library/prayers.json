@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "title": "Recovery & Renewal Prayer Library",
+    "version": "1.0",
+    "last_updated": "2025-12-17",
+    "license_summary": "All prayers are Public Domain (pre-1923) or explicitly open-licensed",
+    "attribution": "Sources: Project Gutenberg, Book of Common Prayer (1928), Wikisource"
+  },
+  "prayers": [
+    {
+      "id": "lords_prayer",
+      "title": "The Lord's Prayer",
+      "category": "Traditional Christian",
+      "tradition": "Christian",
+      "source": "Matthew 6:9-13 (KJV)",
+      "license": "Public Domain (Biblical text)",
+      "text": "Our Father which art in heaven, Hallowed be thy name.\n\nThy kingdom come, Thy will be done in earth, as it is in heaven.\n\nGive us this day our daily bread.\n\nAnd forgive us our debts, as we forgive our debtors.\n\nAnd lead us not into temptation, but deliver us from evil: For thine is the kingdom, and the power, and the glory, for ever. Amen.",
+      "keywords": [
+        "prayer",
+        "christian",
+        "traditional",
+        "jesus",
+        "forgiveness"
+      ]
+    },
+    {
+      "id": "apostles_creed",
+      "title": "The Apostles' Creed",
+      "category": "Traditional Christian",
+      "tradition": "Christian",
+      "source": "Book of Common Prayer (1928) / Ancient Church Tradition",
+      "license": "Public Domain (ancient liturgical text, pre-1923)",
+      "text": "I believe in God the Father Almighty, Maker of heaven and earth:\n\nAnd in Jesus Christ his only Son our Lord: Who was conceived by the Holy Ghost, Born of the Virgin Mary: Suffered under Pontius Pilate, Was crucified, dead, and buried: He descended into hell; The third day he rose again from the dead: He ascended into heaven, And sitteth on the right hand of God the Father Almighty: From thence he shall come to judge the quick and the dead.\n\nI believe in the Holy Ghost: The holy Catholic Church; The Communion of Saints: The Forgiveness of sins: The Resurrection of the body: And the Life everlasting. Amen.",
+      "keywords": [
+        "creed",
+        "christian",
+        "traditional",
+        "faith",
+        "belief"
+      ]
+    },
+    {
+      "id": "nicene_creed",
+      "title": "The Nicene Creed",
+      "category": "Traditional Christian",
+      "tradition": "Christian",
+      "source": "Council of Nicaea (325 AD) / Book of Common Prayer (1928)",
+      "license": "Public Domain (ancient church document)",
+      "text": "I believe in one God the Father Almighty, Maker of heaven and earth, And of all things visible and invisible:\n\nAnd in one Lord Jesus Christ, the only-begotten Son of God; Begotten of his Father before all worlds, God of God, Light of Light, Very God of very God; Begotten, not made; Being of one substance with the Father; By whom all things were made: Who for us men and for our salvation came down from heaven, And was incarnate by the Holy Ghost of the Virgin Mary, And was made man: And was crucified also for us under Pontius Pilate; He suffered and was buried: And the third day he rose again according to the Scriptures: And ascended into heaven, And sitteth on the right hand of the Father: And he shall come again, with glory, to judge both the quick and the dead; Whose kingdom shall have no end.\n\nAnd I believe in the Holy Ghost, The Lord, and Giver of Life, Who proceedeth from the Father and the Son; Who with the Father and the Son together is worshipped and glorified; Who spake by the Prophets: And I believe one Catholic and Apostolic Church: I acknowledge one Baptism for the remission of sins: And I look for the Resurrection of the dead: And the Life of the world to come. Amen.",
+      "keywords": [
+        "creed",
+        "christian",
+        "traditional",
+        "nicene",
+        "trinity"
+      ]
+    },
+    {
+      "id": "gloria_patri",
+      "title": "Gloria Patri (Doxology)",
+      "category": "Traditional Christian",
+      "tradition": "Christian",
+      "source": "Book of Common Prayer (1928) / Ancient Liturgy",
+      "license": "Public Domain (ancient hymn, pre-1923)",
+      "text": "Glory be to the Father, and to the Son, and to the Holy Ghost;\n\nAs it was in the beginning, is now, and ever shall be, world without end. Amen.",
+      "keywords": [
+        "doxology",
+        "gloria",
+        "traditional",
+        "praise",
+        "trinity"
+      ]
+    },
+    {
+      "id": "st_francis_prayer",
+      "title": "Prayer of St. Francis",
+      "category": "Peace & Service",
+      "tradition": "Christian (Franciscan)",
+      "source": "La Clochette (1912) / Wikisource",
+      "license": "Public Domain (original 1912 publication, copyright expired)",
+      "text": "Lord, make me an instrument of thy peace.\n\nWhere there is hatred, let me sow love;\nWhere there is injury, pardon;\nWhere there is doubt, faith;\nWhere there is despair, hope;\nWhere there is darkness, light;\nWhere there is sadness, joy.\n\nO Divine Master, grant that I may not so much seek\nTo be consoled as to console,\nTo be understood as to understand,\nTo be loved as to love;\nFor it is in giving that we receive;\nIt is in pardoning that we are pardoned;\nIt is in dying to self that we are born to eternal life. Amen.",
+      "keywords": [
+        "peace",
+        "service",
+        "francis",
+        "love",
+        "forgiveness",
+        "recovery"
+      ],
+      "notes": "Despite traditional attribution to St. Francis of Assisi (1182-1226), this prayer was first published anonymously in 1912 in French devotional magazine La Clochette. Copyright has expired. Widely used in 12-step recovery communities."
+    },
+    {
+      "id": "gloria_in_excelsis",
+      "title": "Gloria in Excelsis Deo",
+      "category": "Traditional Christian",
+      "tradition": "Christian",
+      "source": "Book of Common Prayer (1928) / Ancient Liturgy",
+      "license": "Public Domain (ancient hymn, pre-1923)",
+      "text": "Glory be to God on high, and on earth peace, good will towards men.\n\nWe praise thee, we bless thee, we worship thee, we glorify thee, we give thanks to thee for thy great glory,\n\nO Lord God, heavenly King, God the Father Almighty.\n\nO Lord, the only-begotten Son, Jesus Christ; O Lord God, Lamb of God, Son of the Father, that takest away the sins of the world, have mercy upon us. Thou that takest away the sins of the world, receive our prayer. Thou that sittest at the right hand of God the Father, have mercy upon us.\n\nFor thou only art holy; thou only art the Lord; thou only, O Christ, with the Holy Ghost, art most high in the glory of God the Father. Amen.",
+      "keywords": [
+        "gloria",
+        "praise",
+        "traditional",
+        "worship",
+        "christmas"
+      ]
+    },
+    {
+      "id": "psalm_23",
+      "title": "Psalm 23 (The Lord is My Shepherd)",
+      "category": "Biblical Prayers",
+      "tradition": "Christian/Jewish",
+      "source": "Psalm 23 (KJV)",
+      "license": "Public Domain (Biblical text)",
+      "text": "The LORD is my shepherd; I shall not want.\n\nHe maketh me to lie down in green pastures: he leadeth me beside the still waters.\n\nHe restoreth my soul: he leadeth me in the paths of righteousness for his name's sake.\n\nYea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.\n\nThou preparest a table before me in the presence of mine enemies: thou anointest my head with oil; my cup runneth over.\n\nSurely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever.",
+      "keywords": [
+        "psalm",
+        "shepherd",
+        "comfort",
+        "peace",
+        "protection",
+        "recovery"
+      ]
+    },
+    {
+      "id": "psalm_91",
+      "title": "Psalm 91 (Protection & Refuge)",
+      "category": "Biblical Prayers",
+      "tradition": "Christian/Jewish",
+      "source": "Psalm 91 (KJV)",
+      "license": "Public Domain (Biblical text)",
+      "text": "He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty.\n\nI will say of the LORD, He is my refuge and my fortress: my God; in him will I trust.\n\nSurely he shall deliver thee from the snare of the fowler, and from the noisome pestilence.\n\nHe shall cover thee with his feathers, and under his wings shalt thou trust: his truth shall be thy shield and buckler.\n\nThou shalt not be afraid for the terror by night; nor for the arrow that flieth by day;\n\nNor for the pestilence that walketh in darkness; nor for the destruction that wasteth at noonday.\n\nA thousand shall fall at thy side, and ten thousand at thy right hand; but it shall not come nigh thee.",
+      "keywords": [
+        "psalm",
+        "protection",
+        "refuge",
+        "fear",
+        "trust",
+        "recovery"
+      ]
+    },
+    {
+      "id": "link_serenity",
+      "title": "Serenity Prayer (External Link)",
+      "category": "Recovery (Copyrighted)",
+      "tradition": "Recovery / Christian",
+      "source": "Reinhold Niebuhr (copyrighted)",
+      "license": "© Copyrighted (Reinhold Niebuhr Estate) - NOT embeddable",
+      "text": "[This prayer is copyrighted and cannot be embedded. Tap to view on AA.org]",
+      "external_link": "https://www.aa.org",
+      "keywords": [
+        "serenity",
+        "acceptance",
+        "recovery",
+        "AA"
+      ],
+      "notes": "The Serenity Prayer was written by Reinhold Niebuhr (~1932-1951) and remains under copyright. It is widely used in AA but is NOT owned by AA. This app links to official AA resources for the full text.",
+      "embed_allowed": false
+    }
+  ]
+}
